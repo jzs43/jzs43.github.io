@@ -6,11 +6,11 @@ output:
     toc_float: true
 ---
 
-A brief introductory landing page
-A page giving your academic and professional experience (i.e. a resume)
-Links in the site navigation for your GitHub account, your email, and other professional networks
+### This is Zheshu Jiang's awesome website
+Hi, this is Zheshu Jiang! I am a first-year biostatistics MS student at Columbia University Mailman School of Public Health. 
+I'm a master at pretending to be productive while secretly binging Netflix. 
+Take a happy time browsing my little rough first personal website! You can find my past experience, email, GitHub page, and LinkedIn page by clicking on the upper right icons. Feel free to send me gift cards and promo codes :)
 
-# This is Zheshu Jiang's awesome website
-# Here is my profile pic
+### Here is my profile pic
 ![](WechatIMG606.jpeg)
 
