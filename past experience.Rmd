@@ -5,4 +5,17 @@ output:
     toc: true
     toc_float: true
 ---
-# My past experience
+# EDUCATION
+Columbia University Mailman School of Public Health 
+Master of Science in Biostatistics, Public Health Data Track 
+
+Wake Forest University 
+Bachelor of Science in Biology, Honor & Bachelor of Arts in Mathematical Statistics 
+
+# RESEARCH EXPERIENCE
+### University of California, Los Angeles, Department of Mathematics                                       
+##### Research Assistant/March 2023 - Present
+•	Conducted literature research to identify relevant papers in biology and mathematics to support the development of an LSTM model with a novel memory consumption loss function for biologically plausible cell memory studies
+•	Trained 1,000 cells using the novel LSTM model, resulting in trajectory samples that closely align with experimental observations, surpassing the performance of traditional LSTM models
+
+
