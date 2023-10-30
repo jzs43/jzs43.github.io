@@ -6,16 +6,47 @@ output:
     toc_float: true
 ---
 # EDUCATION
-Columbia University Mailman School of Public Health 
+### Columbia University Mailman School of Public Health 
 Master of Science in Biostatistics, Public Health Data Track 
 
-Wake Forest University 
+### Wake Forest University 
 Bachelor of Science in Biology, Honor & Bachelor of Arts in Mathematical Statistics 
 
 # RESEARCH EXPERIENCE
-### University of California, Los Angeles, Department of Mathematics                                       
+### University of California, Los Angeles, Department of Mathematics                                   
 ##### Research Assistant/March 2023 - Present
-•	Conducted literature research to identify relevant papers in biology and mathematics to support the development of an LSTM model with a novel memory consumption loss function for biologically plausible cell memory studies
-•	Trained 1,000 cells using the novel LSTM model, resulting in trajectory samples that closely align with experimental observations, surpassing the performance of traditional LSTM models
+•	Conducted literature research to identify relevant papers in biology and mathematics to support the development of an LSTM model with a novel memory consumption loss function for biologically plausible cell memory studies. 
+
+•	Trained 1,000 cells using the novel LSTM model, resulting in trajectory samples that closely align with experimental observations, surpassing the performance of traditional LSTM models. 
+
+### Southeast University School of Public Health
+##### Research Assistant/February 2022 - November 2022
+•	Investigated changes in parental COVID-19 vaccine hesitancy with a three-wave cross-sectional survey. 
+
+•	Employed binary logistic and multivariable regression analysis, in a dataset with over 5,000. 
+
+individual responses, to unveil significant associations among 9 distinct factors linked to parental COVID-19 vaccine hesitancy by using R. 
+
+•	Highlighted correlations between gender, self-reported health status, and vaccine hesitancy and underscored the critical need for targeted interventions to address public concerns regarding vaccine safety. 
+
+### Smithsonian Environmental Research Center
+##### Undergraduate Research Assistant/January 2021 - June 2021
+•	Researched the impact of tree species richness on stand-level productivity to study the importance of biodiversity. 
+
+•	Conducted aboveground biomass estimation for over 3,000 individual trees and compared findings across various species richness levels using BIOMASS package and regression analysis in R. 
+
+•	Measured Functional and Phylogenetic Diversity with 'FD' and 'picante' R packages and visualized their relationship to test explanatory power in R. 
+
+### Wake Forest University Biology Department 
+##### Undergraduate Research Assistant/September 2019 - December 2021
+•	Examined circadian behavior in Eisenia hortensis earthworms by quantifying their movement, contributing to the study of the sensory system responsible for detecting noxious chemical stimuli or chemesthesis. 
+
+•	Applied R-based time series analysis on 6000+ locomotion data to evaluate earthworm circadian rhythms and operated a Python-based software, DeepLabCut, within a Linux terminal for automate circadian rhythms estimation. 
+
+
+
+
+
+
 
 
