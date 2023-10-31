@@ -34,3 +34,13 @@ rest_inspec_df|>
   )
 ```
 
+```{r}
+rest_inspec_df |>                                   
+  plot_ly(y = ~score, color = ~boro, type = "box")|>
+  layout(
+    title = "Box plot of scores by borough",
+    yaxis = list(title = "Scores"),
+    xaxis = list(title = "Boroughs")
+  )
+```
+
