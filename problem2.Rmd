@@ -35,6 +35,7 @@ rest_inspec_df|>
 ```
 
 ```{r}
+#create a box plot
 rest_inspec_df |>                                   
   plot_ly(y = ~score, color = ~boro, type = "box")|>
   layout(
@@ -42,5 +43,22 @@ rest_inspec_df |>
     yaxis = list(title = "Scores"),
     xaxis = list(title = "Boroughs")
   )
+```
+
+
+```{r}
+# random sample 200 obs from each boro
+random_sample= rest_inspec_df |>
+  group_by(boro) |>
+  sample_n(200)
+random_sample|>
+  plot_ly(
+  y = ~score, x=~boro,color = ~boro, type = "scatter", mode = "markers")|>
+  layout(
+    title = "Scatterplot of scores by borough",
+    yaxis = list(title = "Scores"),
+    xaxis = list(title = "Boroughs")
+  )
+
 ```
 
