@@ -1,25 +1,27 @@
 ---
-title: "Flexdashboard"
+title: "Flexdashboard_updated"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
 ---
 
-```{r}
+```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
-```
-
-```{r}
 data("rest_inspec")
 rest_inspec_df = 
   rest_inspec|>
   drop_na()|>
   filter(!is.na(boro) & boro != "Missing")
 ```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
 
 ```{r}
 #create a bar graph
@@ -34,6 +36,11 @@ rest_inspec_df|>
   )
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
 ```{r}
 #create a box plot
 rest_inspec_df |>                                   
@@ -44,6 +51,8 @@ rest_inspec_df |>
     xaxis = list(title = "Boroughs")
   )
 ```
+
+### Chart C
 
 ```{r}
 # random sample 200 obs from each boro
