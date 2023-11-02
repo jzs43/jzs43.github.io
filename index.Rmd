@@ -20,3 +20,6 @@ Here is a link to my [past-experience](past-experience.html) experience.
 Here is a link to the my [github](https://github.com/jzs43) page.
 
 Here is a link to the my [linkedin](https://www.linkedin.com/in/zheshujiang/) page.
+
+Here is a link to the my [flexdashboard](flexdashboard.html) page.
+
