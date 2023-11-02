@@ -13,4 +13,10 @@ Take a happy time browsing my little rough first personal website! You can find 
 
 ### Here is my profile pic
 ![](WechatIMG606.jpeg)
+# Links
 
+Here is a link to my [past-experience](past-experience.html) experience.
+
+Here is a link to the my [github](https://github.com/jzs43) page.
+
+Here is a link to the my [linkedin](https://www.linkedin.com/in/zheshujiang/) page.
