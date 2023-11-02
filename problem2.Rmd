@@ -4,13 +4,16 @@ output:
   html_document:
     toc: true
     toc_float: true
+    theme: flatly
 ---
-```{r}
+
+```{r setup, include=FALSE}
 library(flexdashboard)
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 ```
+
 
 ```{r}
 data("rest_inspec")
@@ -20,6 +23,7 @@ rest_inspec_df =
   filter(!is.na(boro) & boro != "Missing")
 ```
 
+### chart A
 ```{r}
 #create a bar graph
 rest_inspec_df|> 
@@ -32,7 +36,7 @@ rest_inspec_df|>
     xaxis = list(title = "Borough")
   )
 ```
-
+### Chart B
 ```{r}
 #create a box plot
 rest_inspec_df |>                                   
@@ -44,7 +48,7 @@ rest_inspec_df |>
   )
 ```
 
-
+### Chart C
 ```{r}
 # random sample 200 obs from each boro
 random_sample= rest_inspec_df |>
