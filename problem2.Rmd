@@ -52,8 +52,9 @@ random_sample= rest_inspec_df |>
   group_by(boro) |>
   sample_n(200)
 random_sample|>
+  mutate(text_label = str_c("Grade: ", grade, "\nScore: ", score)) |>
   plot_ly(
-  y = ~score, x=~boro,color = ~boro, type = "scatter", mode = "markers")|>
+  y = ~score, x=~boro,color = ~boro, type = "scatter", mode = "markers",text = ~text_label)|>
   layout(
     title = "Scatterplot of scores by borough",
     yaxis = list(title = "Scores"),
