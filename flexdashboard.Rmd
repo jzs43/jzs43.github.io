@@ -1,10 +1,11 @@
 ---
-title: "Problem2"
+title: "Flexdashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
+
 ```{r}
 library(flexdashboard)
 library(tidyverse)
@@ -44,7 +45,6 @@ rest_inspec_df |>
   )
 ```
 
-
 ```{r}
 # random sample 200 obs from each boro
 random_sample= rest_inspec_df |>
@@ -61,4 +61,3 @@ random_sample|>
   )
 
 ```
-
